@@ -26,8 +26,7 @@ public class usingJScode {
 	  jseobj.executeScript("arguments[0].click", driver.findElement(By.xpath("//button[text()='Signup']")));
 	  jseobj.executeScript("arguments[0].value='priyadharshini@gmail.com'",driver.findElement(By.name("//input[@data-qa='signup-email']")));
 	  
-	  
-		
+	  System.out.println("handling jscode");	
 	}
 
 }
